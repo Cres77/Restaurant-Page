@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+#content{
+    background: no-repeat, center, cover;
+    width:100vw;
+    height: 100vh;
+    color:white;
+    display:flex;
+    flex-direction: column
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.678);
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.nav button{
+    font-size: 2rem;
+    background:none;
+    color:white;
+    border:none;
+}
+.nav button:hover{
+    color: rgb(182, 180, 180)
+}
+.title{
+    font-size: 6rem;
+    color:gold;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    width:calc(100% - 60px);
+    height:calc(100% - 60px);
+}
+
+
+.menu{
+    display:grid;
+    position:relative;
+    margin-left: 525px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 110px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width:800px;
+    height:950px;
+    color:gold;
+}
+.pageTitle{
+    position:absolute;
+    justify-self: center;
+    top:30px;
+    font-size: 3rem;
+    color:gold;
+}
+.dish{
+    gap:15px;
+    display:flex;
+    color:white;
+}
+.dish img{
+    height:200px;
+    width:200px;
+}
+
+.about{
+    display:grid;
+    position: relative;
+    margin-left: 525px;
+    gap: 30px;
+    padding: 110px 30px 30px 120px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width:700px;
+    height:950px;
+    color:rgb(255, 255, 255);
+}
+.ownerName{
+    color: rgb(0, 0, 0);
+    position:absolute;
+    top:100px;
+    left:100px;
+    background-color:rgb(86, 167, 11);
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(66, 66, 66);
+}
+
+.home{
+    display:grid;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+.hugeDescrip{
+    position: relative;
+    top:200px;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+
+    background-color: rgba(212, 173, 0, 0.897);
+    
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+}
+.plea{
+    display: grid;
+    position: relative;
+    bottom: -900px;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+    width: 780px;
+    row-gap: 10px;
+    background-color: rgba(0, 99, 99, 0.658);
+}
+
+.phone{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color:rgb(86, 167, 11);
+    width:200px;
+    text-align: center;
+}
+
+.footnote{
+    height:30px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(175, 175, 175);
+    text-align: center;
+}
